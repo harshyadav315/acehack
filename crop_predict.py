@@ -10,8 +10,8 @@ class Crop_Predict(object):
 
     def __init__(self):
         # self.data = data = pd.read_csv('final_new_crop_data_own_repeat.csv')
-        self.data = pd.read_csv('Crop1.csv')
-        self.city = pd.read_csv('Ploted_6001.csv')
+        self.data = pd.read_csv('Crop.csv')
+        self.city = pd.read_csv('cities.csv')
 
 
     def crop(self):

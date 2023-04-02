@@ -13,7 +13,7 @@ from keras import backend as K
 import tensorflow as tf
 import pickle
 from test import Predict
-
+import google
 # Market Stats
 from market_stat import Market
 
@@ -88,8 +88,8 @@ def upload():
             global graph
             p = Predict()
             graph = tf.compat.v1.get_default_graph()
-            with graph.as_default():
-                predict = model_file.predict(arrary_image)
+            # with graph.as_default():
+            predict = model_file.predict(arrary_image)
             
             label_binarizer = pickle.load(open("label_transform.pkl",'rb'))
             result = label_binarizer.inverse_transform(predict)[0]    
