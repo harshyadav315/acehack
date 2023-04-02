@@ -2,7 +2,6 @@ The AI for Farmer is a comprehensive solution designed to assist farmers in vari
 
 1. Pest Prediction: The Pest Prediction model utilizes the power of Convolutional Neural Networks (CNN) using the TensorFlow library to analyze and detect pests in the uploaded images. This helps farmers identify pests in the early stages and take appropriate measures to protect their crops. The model not only detects pests but also provides recommendations on how to deal with them effectively.
 
-2. Weather Prediction: The Weather Prediction feature provides accurate weather forecasts using the OpenWeatherMap API. This information is crucial for farmers to make informed decisions regarding their farming activities, considering the impact of weather on crop growth and development.
 
 3. Crop Prediction: The Crop Prediction model uses the K-Neighbours Classifier algorithm to recommend crops based on the region, soil Nitrogen (N), Phosphorous (P), Potassium (K), and pH values. Farmers can also manually input NPK and pH values to receive crop recommendations tailored to their specific soil conditions. This feature enables farmers to choose the most suitable crops for their land and ensures optimal growth and yield.
 
